@@ -1,0 +1,716 @@
+/* Common CSS Section */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul ,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.align-center{
+    align-items: center;
+}
+.button{
+    background-color: #649483;
+    color: white;
+    border: none;
+    width: 236px;
+    height: 45px;
+    border-radius: 15px;
+    font-size: 18px;
+    position: absolute;
+    margin: 57% 0 30% 0;
+    padding-left: 10px;
+}
+.order_btn{
+    color: #ffece1;
+    background-color: #649483;
+    font-size: 19px;
+    font-weight: 700;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    border-radius: 15px;
+    position: absolute;
+    margin: 57% 40% 0 0;
+    text-align: center;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+.heading h2{
+    font-size: 111px;
+    color: #fff4ee;
+    font-weight: 700;
+}
+.heading p{
+    font-size: 18px;
+    color: #fff4ee;
+    font-weight: 700;
+    margin-bottom: 70px;
+}
+/* Common CSS  Ends Section */
+/* Nav CSS Section Start*/
+nav{
+    background-color: #ffece1;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: relative;
+    z-index: 1;
+    
+}
+nav .logo{
+    width: 20%;
+}
+nav .menu{
+    width: 50%;
+}
+nav .menu ul li{
+    display: inline-block;
+    position: relative;
+}
+
+nav .menu ul li a{
+    display: block;
+    padding: 40px;
+    color: #649483;
+    font-weight: 400;
+    font-size: 19px;
+    position: relative;
+    z-index: 1;
+}
+nav .menu ul li ::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: white;
+    transition: 0.5s;
+    color: white;
+    z-index: -1;
+}
+nav .menu ul li :hover::before{
+    width: 100%;
+} 
+nav .icon{
+    width: 30%;
+    color: #649483;
+    text-align: right;
+}
+nav .icon button{
+    text-align: center;
+    background-color: #649483;
+    color: white;
+    font-weight: 700;
+    font-size: 19px;
+    padding: 10px 24px;
+    width: 250px;
+    border-radius: 15px;
+    border: none;
+}
+
+nav .icon button:hover{
+    color: #649483;
+    border: 2px solid #649483;
+    border-radius: 15px;
+    background: white;
+}
+nav .icon span{
+    font-size: 19px;
+    font-weight: 700;
+    margin-left: 20px;
+    color: #649483;
+}
+/* Nav CSS Section Ends*/
+/* Banner CSS Section Start*/
+#banner{
+    background-image: url(../images/imgge.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    position: relative;
+    padding-bottom: 85px;
+}
+#banner img{
+    position: absolute;
+}
+#banner .shape-1{
+    width: 960px;
+    height: 640px;
+}
+#banner .shape-2{
+    padding-top: 44%;
+    padding-left: 67%;
+}
+#banner .image{
+    width: 45%;
+    color: #649483;
+    padding-left: 20px;
+    line-height: 30px;
+}
+#banner .image img{
+    margin-top: 220px;
+    
+}
+
+#banner .image h2{
+    padding-top: 100%;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 40px;
+    margin:  230px 0 0px 0;
+    text-align: center;
+}
+#banner .image p{
+    font-size: 19px;
+    font-weight: 500;
+    padding-right: 40px;
+    padding-left: 10px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+#banner .text{
+    width: 55%;
+    padding-left: 70px;
+    position: relative;
+}
+#banner .text h2{
+    font-weight: 700;
+    color: #dd7017;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 220px;
+    padding-bottom: 20px;
+    
+}
+#banner .text .btn-2{
+    margin-left: 260px;
+}
+#banner .text button{
+    margin:  0;
+}
+#banner .text button:hover{
+    color: #649483;
+    border: 2px solid #649483;
+    background-color: white;
+}
+#banner .text .img .bar{
+    margin-top: 210px;
+    margin-left: 30px;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    transform: rotate(270deg);
+    transform-origin: 0 0 ;
+}
+#banner .text img{
+    width: 620px;
+    position: absolute;
+    padding-top: 70px;
+}
+#banner .text .img img{
+    width: 100px;
+    position: relative;
+}
+#banner .text .img .img-group-1{
+    width: calc(20% - 50px);
+    margin: 25px;
+    padding-left: 60px;
+    text-align: center;
+    padding-top: 0px;
+}
+#banner .text .img .img-group-1 p{
+    position: absolute;
+    font-size: 11px;
+    text-align: center;
+    padding-right: 400px;
+    text-align: center;
+    color: white;
+    padding-top: -170px;
+}
+#banner .text .img .pic-1 img{
+    padding-right: 0px;
+}
+#banner .text .img .pic-1 p{
+    text-align: center;
+    padding-left: 10px;
+}
+#banner .text .img .pic-2 p{
+    padding-right: 260px;
+    text-align: center;
+    margin-left: -10px;
+}
+#banner .text .img .pic-3 p{
+    padding-right: 150px;
+}
+#banner .text .img .pic-4 img{
+    text-align: center;
+    margin-left: 15px;
+
+}
+#banner .text .img .pic-4 p{
+    padding-left: -920px;
+    text-align: center;
+    padding-right: 266px;
+    width: 400px;
+    display: inline-block;
+}
+#banner span{
+    position: absolute;
+    padding-top: 130px;
+    padding-left: 560px;
+    font-size: 19px;
+    color: white;
+}
+/* Banner CSS Section Ends*/
+/* favorite CSS Section Start*/
+#favourite{
+    background-color: #649483;
+    padding: 120px 0;
+}
+
+#favourite .card{
+    width: calc(33.33% - 40px);
+    margin: 0;
+    background-color: #ffece1;
+    text-align: center;
+    padding: 40px;
+    color: #649483;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+#favourite .card2{
+    margin:  0 60px;
+}
+#favourite .card h5{
+    font-size: 19px;
+    font-weight: 700;
+}
+#favourite .card img{
+    padding: 20px 0;
+}
+#favourite .card p{
+    font-size: 19px;
+    font-weight: 400;
+}
+#favourite .card:hover{
+    background-color: white;
+    color: #649483;
+}
+/* favorite CSS Section Ends*/
+/* Meal plans CSS Section Start*/
+#meal{
+    background: url(../images/Meal-Plans.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 115px 0;
+}
+#meal .image{
+    width: 40%;
+}
+#meal .image img{
+    width: 100%;
+}
+#meal .text{
+    width: 60%;
+    margin-left: -20px;
+}
+#meal .text h4{
+    padding-top: 40px;
+    font-size: 19px;
+    font-weight: 700;
+    color: #649483;
+    margin-left: 70px;
+}
+#meal .text h2{
+    margin-left: 70px;
+    font-size: 111px;
+    font-weight: 700;
+    color: #dd7017;
+}
+#meal .text p{
+    font-size: 19px;
+    font-weight: 500;
+    color: #649483;
+    padding: 0px 0 40px 0;
+    padding-right: 50px;
+    margin-left: 70px;
+    text-align: justify;
+    
+}
+#meal .text .group a{
+    color: #ffece1;
+    background-color: #649483;
+    font-size: 17px;
+    font-weight: 700;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    border-radius: 15px;
+    position: absolute;
+    margin: 70% 40% 0 0;
+    text-align: center;
+}
+#meal .text .group a:hover{
+    background-color: white;
+    border: 2px solid #649483;
+    color: #649483;
+}
+#meal .text .group{
+    width: calc(40% - 80px);
+    margin:  0 40px 0 0;
+    position: relative; 
+    margin-left: 70px;
+}
+#meal .text .group2{
+    padding-left: 25px;
+}
+/* Meal plans CSS Section Ends*/
+/* recipe CSS Section Start*/
+#recipe{
+    background: url(../images/re.jpg);
+    padding: 80px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+#recipe .text{
+    width: 60%;
+}
+#recipe .text h4{
+    font-size: 19px;
+    font-weight: 700;
+    color: #649483;
+}
+#recipe .text h2{
+    font-size: 111px;
+    font-weight: 700;
+    color: #dd7017;
+}
+#recipe .text .cardg{
+    width: calc(50% - 40px);
+    margin: 0 20px 0 0 ;
+    padding: 20px 0;
+    position: relative;
+}
+#recipe .text .cardg a{
+    margin-top: 47%;
+    color: #ffece1;
+    background-color: #649483;
+    font-size: 17px;
+    font-weight: 700;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    border-radius: 15px;
+    position: absolute;
+    text-align: center;
+}
+#recipe .text a:hover{
+    background-color: white;
+    color: #649483;
+    border: 2px solid #649483;
+}
+#recipe .image{
+    width: 40%;
+}
+#recipe .image img{
+    width: 100%;
+    height: 100%;
+}
+/* recipe CSS Section Ends*/
+/* Process  CSS Section Start */
+#process{
+    background-color: #649483;
+    padding: 120px 0;
+}
+#process .cardp{
+    width: calc(33.33% - 80px);
+    background-color: #ffece1;
+    color: #dd7017;
+    text-align: center;
+    padding: 50px;
+    border-radius: 20px;
+    position: relative;
+}
+#process span{
+    position: absolute;
+    padding-top: 165px;
+    padding-left: 360px;
+    font-size: 19px;
+    color: white;
+}
+#process .span2{
+    padding-top: 165px;
+    padding-left: 780px;
+}
+#process .card2{
+    margin: 0 120px;
+}
+#process .cardp h4{
+    font-size: 22px;
+    font-weight: 700;
+    
+}
+#process .cardp img{
+    padding: 30px 0;
+}
+#process .cardp p{
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+#process .cardp:hover{
+    color: #649483;
+    background-color: white;
+}
+/* Process  CSS Section Ends */
+/* Meal love  CSS Section Start */
+#love{
+    background: url(../images/love.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+#love .textlove{
+    width: 50%;
+}
+#love .arrowtext{
+    width: 50%;
+    text-align: right;
+    color: white;
+    padding-top: 90px;
+    padding-left: 35%;
+}
+#love .arrowtext P{
+    font-size: 17px;
+    font-weight: 700;
+}
+#love .textlove h2{
+    padding: 150px 0 20px 0;
+    font-size: 100px;
+    font-weight: 700;
+    color: #dd7017;
+}
+#love .textlove p{
+    font-size: 17px;
+    font-weight: 500;
+    padding-right: 50px;
+    color: #649483;
+}
+#love .textlove a{
+    background-color: #649483;
+    color: white;
+    border: none;
+    width: 236px;
+    height: 45px;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+    text-align: center;
+    padding-top: 8px;
+    margin: 40px 40px 220px 0;
+    border: 2px solid #649483;
+}
+#love .textlove a:hover{
+    background-color: white;
+    color: #649483;
+}
+/* Meal love  CSS Section Ends */
+/* client  CSS Section Start */
+#client{
+    background-color: #649483;
+    padding: 100px 0;
+}
+#client .card_client{
+    width: calc(33.33% - 40px);
+    margin:  0  20px;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    padding: 50px 0;
+    transition: 0.5s;
+}
+#client .card_client:hover{
+    background-color: white;
+    border-radius: 20px;
+    color: #649483;
+}
+#client .card_client img{
+    padding: 20px  0 20px 0;
+}
+#client .card_client h6{
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 20px;
+    
+}
+#client .card_client p{
+    line-height: 25px;
+    font-weight: 500;
+}
+/* client  CSS Section Ends */
+/* Made  CSS Section Start */
+#made{
+    background-image: url(../images/last-b.png);
+    background-position: right;
+    padding: 70px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 900px;
+}
+#made .text{
+    padding-top: 150px;
+}
+#made h2{
+    padding: 0 190px;
+    font-size: 100px;
+    font-weight: 700;
+    color: #dd7017;
+}
+   
+#made p{
+    padding: 0 300px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #649483;
+}
+
+#made a{
+    background-color: #649483;
+    color: white;
+    border: none;
+    width: 236px;
+    height: 45px;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+    text-align: center;
+    padding-top: 8px;
+    margin: 0 40px 0 0;
+    margin: 40px 40px 220px 0;
+}
+#made a:hover{
+    background-color: white;
+    border: 2px solid #649483;
+    color: #649483;
+}
+/* Made  CSS Section Ends */
+/* footer  CSS Section Start */
+.footer_heading{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+#footer{
+    background-color: #649483;
+    padding: 120px 0;
+}
+#footer .section1{
+    width: 25%;
+}
+#footer .sec-1{
+    width: 25%;
+}
+#footer .sec-2{
+    width: 20%;
+}
+#footer .sec-3{
+    width: 30%;
+}
+#footer .sec-3 p{
+    color: white;
+    font-size: 18px;
+}
+#footer .sec-3 input{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin: 20px 0;
+    color: #649483;
+    font-size: 15px;
+}
+#footer .sec-3 input:hover{
+    border: none;
+    border: 4px solid white;
+    background-color: #649483;
+    color: white;
+}
+#footer .sec-3 a{
+    background-color:white ;
+    color: #649483;
+    border: none;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    display: inline-block;
+    text-align: center;
+}
+#footer .sec-3 a:hover{
+    border: 2px solid white;
+    background-color: #649483;
+    color: white;
+}
+#footer .section1 :last-child{
+    margin-right: 0;
+}
+#footer .section1 .link ul li a{
+    color: white;
+    font-size: 19px;
+    font-size: 500;
+    line-height: 40px;
+    transition: 0.5s;
+}
+#footer .section1 ul li a:hover{
+    padding-left: 20px;
+}
+::placeholder{
+    color: #649483;
+}
+
+#footer .section1 .link ul{
+    padding-bottom: 100px;
+}
+#footer .low{
+    width: 80%;
+    color: white;
+    font-weight: 700;
+    font-size: 19px;
+}
+#footer .icon{
+    width: 20%;
+    text-align: right;
+}
+#footer .icon ul li{
+    display: inline-block;
+    color: white;
+    padding-left: 10px;
+    font-size: 25px;
+}
+/* footer  CSS Section Ends */
